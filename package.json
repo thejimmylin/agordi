@@ -1,9 +1,12 @@
 {
   "name": "agordi",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Get your settings done.",
   "main": "index.js",
+  "bin": {
+    "agordi": "./index.js"
+  },
   "scripts": {
     "default": "node index"
   },

@@ -1,2 +1,9 @@
 # agordi
- Get your settings done.
+ 
+Get your settings done.
+
+## Usages
+
+```
+npm run agordi
+```

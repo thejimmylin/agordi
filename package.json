@@ -1,11 +1,11 @@
 {
   "name": "agordi",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Get your settings done.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "default": "node index"
   },
   "repository": {
     "type": "git",

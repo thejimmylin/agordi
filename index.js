@@ -8,7 +8,6 @@ const CONFIGS = [
     filePath: path.resolve(CWD, ".vscode", "settings.json"), 
     defaultData: {
       "prettier.tabWidth": 2,
-      "prettier.printWidth": 88,
       "python.formatting.provider": "black",
       "python.formatting.blackArgs": [
         "--line-length=79"

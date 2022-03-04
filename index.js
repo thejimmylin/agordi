@@ -7,6 +7,18 @@ const CONFIGS = [
   {
     filePath: path.resolve(CWD, ".vscode", "settings.json"),
     defaultData: {
+      "[html]": {
+        "editor.tabSize": 2,
+      },
+      "[css]": {
+        "editor.tabSize": 2,
+      },
+      "[javascript]": {
+        "editor.tabSize": 2,
+      },
+      "[typescript]": {
+        "editor.tabSize": 2,
+      },
       "prettier.tabWidth": 2,
       "editor.linkedEditing": true,
       "python.formatting.provider": "black",

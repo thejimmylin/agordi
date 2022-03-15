@@ -25,7 +25,7 @@ const CONFIGS = [
       "python.formatting.blackArgs": ["--line-length=79"],
       "python.linting.enabled": true,
       "python.linting.flake8Enabled": true,
-      "python.linting.flake8Args": ["--ignore=E203"],
+      "python.linting.flake8Args": ["--extend-ignore=E203"],
     },
   },
 ];

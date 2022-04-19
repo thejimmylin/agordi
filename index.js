@@ -7,23 +7,20 @@ const CONFIGS = [
   {
     filePath: path.resolve(CWD, ".vscode", "settings.json"),
     defaultData: {
-      "[html]": {
-        "editor.tabSize": 2,
-      },
-      "[css]": {
-        "editor.tabSize": 2,
-      },
-      "[javascript]": {
-        "editor.tabSize": 2,
-      },
-      "[typescript]": {
-        "editor.tabSize": 2,
-      },
+      "workbench.colorTheme": "One Dark Pro",
+      "workbench.iconTheme": "material-icon-theme",
+      "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, Courier New, monospace",
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
       "prettier.tabWidth": 2,
-      "editor.linkedEditing": true,
+      "prettier.printWidth": 120,
+      "[python]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.python",
+      },
       "python.formatting.provider": "black",
       "python.formatting.blackArgs": ["--line-length=79"],
-      "python.linting.enabled": true,
       "python.linting.flake8Enabled": true,
       "python.linting.flake8Args": ["--extend-ignore=E203"],
     },

@@ -20,9 +20,9 @@ const CONFIGS = [
         "editor.defaultFormatter": "ms-python.python",
       },
       "python.formatting.provider": "black",
-      "python.formatting.blackArgs": ["--line-length=79"],
+      "python.formatting.blackArgs": ["--line-length=120"],
       "python.linting.flake8Enabled": true,
-      "python.linting.flake8Args": ["--extend-ignore=E203"],
+      "python.linting.flake8Args": ["--max-line-length=120", "--extend-ignore=E203"],
     },
   },
 ];

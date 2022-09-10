@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j3ygh/agordi.git"
+    "url": "git+https://github.com/thejimmylin/agordi.git"
   },
   "author": "Jimmy Lin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/j3ygh/agordi/issues"
+    "url": "https://github.com/thejimmylin/agordi/issues"
   },
-  "homepage": "https://github.com/j3ygh/agordi#readme"
+  "homepage": "https://github.com/thejimmylin/agordi#readme"
 }
